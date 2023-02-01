@@ -1,0 +1,18 @@
+name: Rational Integration Tester
+
+on: workflow_dispatch
+
+jobs:
+    API-Action:
+        runs-on: self-hosted
+        name: Rational Integration Tester
+        steps:
+         - name: Rational Integration Tester
+           uses: IBM/IBM-RIT-GitHub-Action@main
+           with:
+            projectDir:
+            projectName: 
+            environment: 
+            tests: 
+            parameterFile: 
+            junitDir: 
